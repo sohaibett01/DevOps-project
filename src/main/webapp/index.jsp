@@ -2,7 +2,7 @@
 
 <body>
 
-<h1>Welcome to my web app </h1>
+<h1>Welcome to my web app!</h1>
 
 <h2>Hello Sohaib!</h2>
 
