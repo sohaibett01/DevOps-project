@@ -6,7 +6,7 @@
 
 <h2>Hello Sohaib!</h2>
 
-<p>This is my java web application working!</p>
+<p>This is my web application working!</p>
 
 </body>
 
