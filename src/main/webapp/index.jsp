@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NextWork - Application Web</title>
+    <title>NextWork - Web Application</title>
     <style>
         * {
             margin: 0;
@@ -70,10 +70,6 @@
             font-weight: 700;
         }
 
-        h2::before {
-            content: "👋";
-            font-size: 1.2em;
-        }
 
         .welcome-section {
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -109,11 +105,6 @@
             margin-bottom: 15px;
         }
 
-        .info-section p::before {
-            content: "✅";
-            font-size: 1.2em;
-            flex-shrink: 0;
-        }
 
         .deployment-badge {
             display: inline-block;
@@ -150,8 +141,7 @@
         }
 
         .feature-icon {
-            font-size: 2.5em;
-            margin-bottom: 10px;
+            display: none;
         }
 
         .feature-title {
@@ -199,14 +189,14 @@
 <body>
     <div class="container">
         <header>
-            <h1>🚀 Welcome to NextWork!</h1>
+            <h1> Welcome to NextWork!</h1>
         </header>
 
         <section class="welcome-section">
             <h2>Hello Sohaib!</h2>
             <p>
-                Bienvenue dans votre application web NextWork ! Cette application est maintenant 
-                opérationnelle et prête à être utilisée.
+                Welcome to your NextWork web application! This application is now 
+                operational and ready to be used.
             </p>
         </section>
 
@@ -218,29 +208,29 @@
                 If you see this line, that means your latest changes are automatically deployed 
                 into production by CodePipeline!
             </p>
-            <span class="deployment-badge">🚀 Déploiement Automatique Actif</span>
+            <span class="deployment-badge">Automatic Deployment Active</span>
         </section>
 
         <div class="features">
             <div class="feature-card">
-                <div class="feature-icon">⚡</div>
+                <div class="feature-icon"></div>
                 <div class="feature-title">Performance</div>
-                <div>Application optimisée</div>
+                <div>Optimized application</div>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">🔒</div>
-                <div class="feature-title">Sécurité</div>
-                <div>Données protégées</div>
+                <div class="feature-icon"></div>
+                <div class="feature-title">Security</div>
+                <div>Protected data</div>
             </div>
             <div class="feature-card">
-                <div class="feature-icon">🔄</div>
+                <div class="feature-icon"></div>
                 <div class="feature-title">CI/CD</div>
-                <div>Déploiement automatique</div>
+                <div>Automatic deployment</div>
             </div>
         </div>
 
         <footer>
-            <p>© 2024 NextWork - Tous droits réservés</p>
+            <p>© 2024 NextWork - All rights reserved</p>
         </footer>
     </div>
 </body>
