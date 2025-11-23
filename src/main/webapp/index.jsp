@@ -20,7 +20,7 @@
             align-items: center;
             justify-content: center;
             padding: 20px;
-            color: #333;
+            color: #1a202c;
         }
 
         .container {
@@ -52,20 +52,22 @@
         }
 
         h1 {
-            color: #667eea;
+            color: #4c51bf;
             font-size: 2.5em;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            font-weight: 700;
         }
 
         h2 {
-            color: #764ba2;
+            color: #6b46c1;
             font-size: 1.8em;
             margin-top: 30px;
             margin-bottom: 20px;
             display: flex;
             align-items: center;
             gap: 10px;
+            font-weight: 700;
         }
 
         h2::before {
@@ -84,7 +86,8 @@
         .welcome-section p {
             font-size: 1.1em;
             line-height: 1.8;
-            color: #2d3748;
+            color: #1a202c;
+            font-weight: 500;
         }
 
         .info-section {
@@ -98,10 +101,12 @@
         .info-section p {
             font-size: 1em;
             line-height: 1.8;
-            color: #4a5568;
+            color: #1a202c;
             display: flex;
             align-items: flex-start;
             gap: 10px;
+            font-weight: 500;
+            margin-bottom: 15px;
         }
 
         .info-section p::before {
@@ -153,6 +158,13 @@
             color: #667eea;
             font-weight: bold;
             margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .feature-card div:last-child {
+            color: #2d3748 !important;
+            font-size: 0.95em !important;
+            font-weight: 500;
         }
 
         footer {
@@ -160,8 +172,13 @@
             margin-top: 40px;
             padding-top: 20px;
             border-top: 2px solid #e2e8f0;
-            color: #718096;
-            font-size: 0.9em;
+            color: #2d3748;
+            font-size: 0.95em;
+            font-weight: 500;
+        }
+
+        footer p {
+            color: #2d3748;
         }
 
         @media (max-width: 600px) {
@@ -208,17 +225,17 @@
             <div class="feature-card">
                 <div class="feature-icon">⚡</div>
                 <div class="feature-title">Performance</div>
-                <div style="color: #718096; font-size: 0.9em;">Application optimisée</div>
+                <div>Application optimisée</div>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🔒</div>
                 <div class="feature-title">Sécurité</div>
-                <div style="color: #718096; font-size: 0.9em;">Données protégées</div>
+                <div>Données protégées</div>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🔄</div>
                 <div class="feature-title">CI/CD</div>
-                <div style="color: #718096; font-size: 0.9em;">Déploiement automatique</div>
+                <div>Déploiement automatique</div>
             </div>
         </div>
 
