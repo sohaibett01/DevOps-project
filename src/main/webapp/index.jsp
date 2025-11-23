@@ -189,13 +189,13 @@
 <body>
     <div class="container">
         <header>
-            <h1> Welcome to NextWork!</h1>
+            <h1> Welcome to my web application!</h1>
         </header>
 
         <section class="welcome-section">
             <h2>Hello Sohaib!</h2>
             <p>
-                Welcome to your NextWork web application! This application is now 
+                Welcome to your web application! This application is now 
                 operational and ready to be used.
             </p>
         </section>
@@ -230,7 +230,7 @@
         </div>
 
         <footer>
-            <p>© 2024 NextWork - All rights reserved</p>
+            <p> 2025 - All rights reserved</p>
         </footer>
     </div>
 </body>
